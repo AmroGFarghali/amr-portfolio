@@ -6,8 +6,6 @@ const eduData = [
     companyName: "German University in Cairo",
     date: "2017-2022",
     jobTitle: "B.ASc in Computer Science",
-    description:
-      "Completed an intensive MEARN stack program culminating in a capstone group project that is an AI-powered recruitment system designed to streamline the hiring process. The system features company profile management, job posting creation, CV parsing, AI-conducted interviews with automated feedback, applicant ranking, and integrated communication tools.",
   },
 ];
 

@@ -7,7 +7,7 @@ interface WorkProps {
   companyName: string;
   date: string;
   jobTitle: string;
-  description: string;
+  description?: string;
 }
 
 export default function WorkCard({
@@ -29,7 +29,7 @@ export default function WorkCard({
           </Avatar>
         </div>
 
-        <div id="ResumeInfo" className="w-full cursor-pointer">
+        <div id="ResumeInfo" className="w-full  cursor-pointer">
           <div className="flex justify-between">
             <h3 className="text-sm font-semibold">{companyName} </h3>
             <p className="text-sm text-muted-foreground">{date}</p>
