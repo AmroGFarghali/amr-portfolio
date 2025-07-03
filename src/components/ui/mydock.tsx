@@ -106,7 +106,7 @@ export function MyDock() {
                 </Tooltip>
               </DockIcon>
             ))}
-            {/* <Separator orientation="vertical" className="h-full py-2" /> */}
+            <Separator orientation="vertical" className="h-full py-2" />
           </Dock>
         </TooltipProvider>
       </div>
