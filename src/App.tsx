@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import ProjectsSection from "./components/ProjectsSection";
 import Skills from "./components/Skills";
 import Header from "./components/ui/header";
+import { MyDock } from "./components/ui/mydock";
 import WorkSection from "./components/WorkSection";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <EducationSection />
       <Skills />
       <ProjectsSection />
+      <MyDock />
     </div>
   );
 }

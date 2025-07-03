@@ -27,7 +27,7 @@ export default function ProjectCard({
   image,
 }: ProjectProps) {
   return (
-    <Card className="overflow-hidden border hover:shadow-lg pt-0 ">
+    <Card className="overflow-hidden border hover:shadow-lg pt-0 pb-3">
       <img
         src={image}
         alt=""
