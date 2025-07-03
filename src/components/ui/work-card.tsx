@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { motion } from "framer-motion";
-import { ChevronRight, ChevronRightIcon } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 interface WorkProps {
   imageUrl: string;
