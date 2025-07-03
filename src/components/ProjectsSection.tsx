@@ -2,6 +2,16 @@ import { Badge } from "./ui/badge";
 import ProjectCard from "./ui/project-card";
 const projectsData = [
   {
+    image: "taleex.png",
+    title: "TaleeX",
+    description:
+      "Group capstone project for an AI-powered recruitment platform. I worked on the frontend part of the project, building features like company profiles and applicant ranking and management.",
+
+    // gitLink: "https://github.com/TaleeX-Team/TaleeX-client",
+    deployLink: "https://taleex.vercel.app/landing-page",
+    tags: ["React", "Tanstack-Query", "TailwindCSS", "React-Router", "Shadcn"],
+  },
+  {
     image: "fast-react-pizza.png",
     title: "Fast React Pizza",
     description:

@@ -11,6 +11,7 @@ import {
 import { cn } from "@/lib/utils";
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { MailIcon } from "lucide-react";
+import { ModeToggle } from "../mode-toggle";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -34,19 +35,6 @@ const Icons = {
       />
     </svg>
   ),
-  youtube: (props: IconProps) => (
-    <svg
-      width="32px"
-      height="32px"
-      viewBox="0 0 32 32"
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <title>youtube</title>
-      <path d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
-    </svg>
-  ),
   github: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
@@ -61,18 +49,18 @@ const DATA = {
   contact: {
     social: {
       GitHub: {
-        name: "GitHub",
-        url: "#",
+        name: "Github",
+        url: "https://github.com/AmroGFarghali",
         icon: Icons.github,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "#",
+        url: "https://www.linkedin.com/in/amr-gamal-farghali/",
         icon: Icons.linkedin,
       },
-      email: {
+      Email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:amrogfarghalii@gmail.com",
         icon: Icons.email,
       },
     },
@@ -91,6 +79,7 @@ export function MyDock() {
                   <TooltipTrigger asChild>
                     <a
                       href={social.url}
+                      target="_blank"
                       aria-label={social.name}
                       className={cn(
                         buttonVariants({ variant: "ghost", size: "icon" }),
@@ -107,6 +96,16 @@ export function MyDock() {
               </DockIcon>
             ))}
             <Separator orientation="vertical" className="h-full py-2" />
+            <DockIcon>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <ModeToggle />
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Theme</p>
+                </TooltipContent>
+              </Tooltip>
+            </DockIcon>
           </Dock>
         </TooltipProvider>
       </div>
