@@ -1,4 +1,4 @@
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Header from "./components/ui/header";
 import WorkSection from "./components/WorkSection";
 
