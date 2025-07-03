@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <header className="flex w-full gap-8 items-center">
-      <div className="space-y-6">
+      <div className="space-y-4">
         <h1 className="text-3xl md:text-6xl font-bold">Hi, I'm Amr 👋</h1>
-        <p className="text-xl max-w-[400px] ">
+        <p className="text-2xl max-w-[400px] ">
           Enthusiastic software engineer. I love building stuff! Very active on
           the web.
         </p>

@@ -8,8 +8,8 @@ export default function Hero() {
         and its ecosystem, including{" "}
         <span className="font-semibold underline">Redux</span>,
         <span className="font-semibold underline"> Tailwind CSS</span>,{" "}
-        <span className="font-semibold underline"> React Query</span>, and
-        <span className="font-semibold underline"> React Router</span> , I also
+        <span className="font-semibold underline"> React Query</span> and
+        <span className="font-semibold underline"> React Router</span>. I also
         am currently learning
         <span className="font-semibold underline"> Angular</span> and looking to
         be proficient in both frameworks. I’m passionate about building
