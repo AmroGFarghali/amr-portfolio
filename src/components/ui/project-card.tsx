@@ -41,8 +41,8 @@ export default function ProjectCard({
       </CardContent>
       <CardFooter className="px-2 mt-auto flex flex-col items-start">
         <ul className="flex gap-1 flex-wrap">
-          {tags.map((tag) => (
-            <li>
+          {tags.map((tag, index) => (
+            <li key={index}>
               <Badge className="font-sans font-xs" variant="secondary">
                 {tag}
               </Badge>

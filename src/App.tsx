@@ -6,6 +6,7 @@ import { ThemeProvider } from "./components/theme-provider";
 import Header from "./components/ui/header";
 import { MyDock } from "./components/ui/mydock";
 import WorkSection from "./components/WorkSection";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <ProjectsSection />
         <MyDock />
+        <Analytics />
       </div>
     </ThemeProvider>
   );

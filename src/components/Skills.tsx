@@ -6,8 +6,8 @@ export default function Skills() {
     <section>
       <h2 className="font-bold text-xl mb-3">Skills</h2>
       <ul id="skills" className="flex flex-wrap gap-1">
-        {skills.map((skill) => (
-          <Badge>{skill}</Badge>
+        {skills.map((skill, index) => (
+          <Badge key={index}>{skill}</Badge>
         ))}
       </ul>
     </section>
