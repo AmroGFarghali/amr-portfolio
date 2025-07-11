@@ -12,6 +12,16 @@ const projectsData = [
     tags: ["React", "Tanstack-Query", "TailwindCSS", "React-Router", "Shadcn"],
   },
   {
+    image: "ng-commerce.png",
+    title: "Angular Commerce",
+    tags: ["Angular", "TailwindCSS"],
+
+    description:
+      "Angular E-commerce Template is a modern, minimalist but functioning responsive e-commerce template built with Angular and TailwindCSS",
+    gitLink: "https://github.com/AmroGFarghali/ng-commerce",
+    deployLink: "https://ng-commerce-nine.vercel.app/",
+  },
+  {
     image: "fast-react-pizza.png",
     title: "Fast React Pizza",
     description:
@@ -20,15 +30,6 @@ const projectsData = [
     gitLink: "https://github.com/AmroGFarghali/fast-react-pizza",
     deployLink: "https://fast-react-pizza-six-opal.vercel.app/",
     tags: ["React", "Redux", "TailwindCSS", "React-Router"],
-  },
-  {
-    image: "ng-commerce.png",
-    title: "Angular Commerce(Work In Progress)",
-    tags: ["Angular", "TailwindCSS"],
-
-    description:
-      "Angular E-commerce Template is a modern, minimalist but functioning responsive e-commerce template built with Angular and TailwindCSS",
-    gitLink: "https://github.com/AmroGFarghali/ng-commerce",
   },
 ];
 export default function ProjectsSection() {
